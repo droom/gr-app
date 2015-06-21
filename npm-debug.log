@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'cordova',
+1 verbose cli   'ionic' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose stack Error: EPERM, Operation not permitted
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/uid-number/uid-number.js:49:16
+4 verbose stack     at ChildProcess.exithandler (child_process.js:742:7)
+4 verbose stack     at ChildProcess.emit (events.js:110:17)
+4 verbose stack     at maybeClose (child_process.js:1015:16)
+4 verbose stack     at Socket.<anonymous> (child_process.js:1183:11)
+4 verbose stack     at Socket.emit (events.js:107:17)
+4 verbose stack     at Pipe.close (net.js:485:12)
+5 verbose cwd /Users/droom/GIT/gr-app
+6 error Darwin 13.4.0
+7 error argv "node" "/usr/local/bin/npm" "install" "-g" "cordova" "ionic"
+8 error node v0.12.2
+9 error npm  v2.7.4
+10 error code [ 'EPERM',
+10 error code   'EPERM',
+10 error code   index: 0,
+10 error code   input: 'EPERM, Operation not permitted' ]
+11 error errno 1
+12 error EPERM, Operation not permitted
+13 error If you need help, you may report this error at:
+13 error     <https://github.com/npm/npm/issues>
+14 verbose exit [ 1, true ]
