@@ -1,1 +1,39 @@
 /* Empty. Add your own CSS if you like */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  font-weight: 600;
+}
+h5{
+  margin: 20px auto;
+  text-align: center;
+}
+p{
+  font-weight: 400;
+}
+
+.bar-header .back-button .back-text,
+.bar-header .back-button .ion-ios-arrow-back{
+  color: white
+}
+
+.receipt-new .row,
+.receipt-new .col{
+  padding: 0
+}
+
+.item.item-input.search{
+  background: #f2f2f2;
+}
+
+[nav-bar-transition="ios"] [nav-bar="active"] .bar,
+[nav-bar-transition="ios"] [nav-bar="entering"] .bar {
+  background: #333;
+  color: #f2f2f2;
+}
+
+.title.title-center.header-item{
+  color: #f2f2f2;
+}

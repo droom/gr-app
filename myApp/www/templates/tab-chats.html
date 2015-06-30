@@ -1,16 +1,33 @@
-<ion-view view-title="Chats">
-  <ion-content>
-    <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
-        <img ng-src="{{chat.face}}">
-        <h2>{{chat.name}}</h2>
-        <p>{{chat.lastText}}</p>
-        <i class="icon ion-chevron-right icon-accessory"></i>
+<ion-view view-title="My Receipts">
 
-        <ion-option-button class="button-assertive" ng-click="remove(chat)">
-          Delete
-        </ion-option-button>
-      </ion-item>
-    </ion-list>
-  </ion-content>
+<ion-nav-bar class="bar-stable">
+<ion-nav-buttons side="secondary">
+<button class="button" ui-sref="tab.settings">
+ <a ui-sref="tab.settings">
+   <!-- <i class="icon ion-ios-gear"></i> -->
+   New
+ </a>
+</button>
+</ion-nav-buttons>
+</ion-nav-bar>
+
+<ion-content>
+<label class="item item-input search">
+  <input type="text" placeholder="Search for receipt">
+</label>
+
+<ion-list>
+<ion-item class="item-remove-animate item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+<!-- <img ng-src="{{chat.face}}"> -->
+<h2>{{chat.name}}</h2>
+<p>{{chat.lastText}}</p>
+<p>{{chat.face}}</p>
+
+<i class="icon ion-chevron-right icon-accessory"></i>
+<ion-option-button class="button-assertive" ng-click="remove(chat)">
+Delete
+</ion-option-button>
+</ion-item>
+</ion-list>
+</ion-content>
 </ion-view>
