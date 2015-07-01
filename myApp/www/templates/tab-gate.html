@@ -1,0 +1,85 @@
+<ion-view view-title="Welcome to GiveReceipt">
+<ion-content class="gate padding" has-header="false">
+
+
+<ion-slide-box on-slide-changed="slideHasChanged($index)">
+<ion-slide>
+<div class="box blue">
+
+  <h2>Sign In</h2>
+
+
+  <div class="card">
+
+
+
+    <div class="list">
+      <label class="item item-input">
+        <input type="text" placeholder="First Name">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="Last Name">
+      </label>
+    </div>
+  </div>
+
+
+  <button class="button button-light center">
+    Sign in with email
+  </button>
+
+
+  <hr />
+  <button class="button button-positive center">
+    Sign in with Facebook
+  </button>
+
+
+</div>
+</ion-slide>
+<ion-slide>
+
+
+<div class="box yellow">
+  <h2>Sign Up</h2>
+
+  <div class="card">
+    <div class="list">
+      <label class="item item-input">
+        <input type="text" placeholder="Email address">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="Password">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="Retype Password">
+      </label>
+
+
+    </div>
+
+
+
+  </div>
+
+<!--   <li class="item item-checkbox">
+     <label class="checkbox">
+       <input type="checkbox">
+     </label>
+     Flux Capacitor
+   </li> -->
+
+
+   <button class="button button-light center">
+    Register
+  </button>
+
+
+
+</div>
+</ion-slide>
+
+</ion-slide-box>
+
+</ion-content>
+</ion-view>

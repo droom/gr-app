@@ -48,6 +48,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   })
 
+  .state('tab.gate', {
+    url: '/gate',
+    views: {
+      'tab-gate': {
+        templateUrl: 'templates/tab-gate.html',
+        controller: 'GateCtrl'
+      }
+    }
+  })
+
   .state('tab.chats', {
       url: '/chats',
       views: {

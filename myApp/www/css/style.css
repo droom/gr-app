@@ -4,7 +4,7 @@ body{
 }
 
 h2{
-  font-weight: 600;
+  font-weight: 400;
 }
 h5{
   margin: 20px auto;
@@ -22,6 +22,20 @@ p{
 .receipt-new .row,
 .receipt-new .col{
   padding: 0
+}
+
+.gate{
+  background: #323232;
+}
+
+.gate h2{
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+.box.blue{
+  height: 400px;
 }
 
 .item.item-input.search{
