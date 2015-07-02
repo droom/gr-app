@@ -24,15 +24,51 @@ p{
   padding: 0
 }
 
-.gate{
-  background: #323232;
-}
 
-.gate h2{
-  margin: auto;
-  color: white;
+.box{
   text-align: center;
 }
+
+.box .item.item-checkbox{
+  text-align: left;
+  font-size: 14px
+}
+
+
+.gate .card{
+  padding: 20px;
+  background: none;
+  box-shadow: none;
+}
+
+
+.gate{
+  background: #323232;
+  padding: 20px;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+}
+
+.gate h4{
+  // margin: auto;
+  color: white;
+  // text-align: center;
+}
+
+
+.logo{
+  margin: auto;
+  margin-top: -50px;
+  text-align: center;
+  width: 150px;
+  display: flex;
+  // align-items: center;
+  // justify-content: center;
+}
+
+
+
 
 .box.blue{
   height: 400px;
