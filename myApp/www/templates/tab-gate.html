@@ -1,38 +1,43 @@
-<ion-view view-title="Welcome to GiveReceipt">
-<ion-content class="gate padding" has-header="false">
+<ion-view view-title="Welcome to GiveReceipt" hide-nav-bar="true">
+<ion-content class="gate padding">
 
+<img src="img/gr-logo-white.svg" class="logo">
 
 <ion-slide-box on-slide-changed="slideHasChanged($index)">
 <ion-slide>
 <div class="box blue">
 
-  <h2>Sign In</h2>
+
+
+
+  <div class="card">
+
+    <h4>Sign In</h4>
+
+    <div class="list">
+      <label class="item item-input">
+        <input type="text" placeholder="Email">
+      </label>
+      <label class="item item-input">
+        <input type="password" placeholder="Password">
+      </label>
+    </div>
+
+    <button class="button button-light center">
+      Sign in with email
+    </button>
+
+
+  </div>
 
 
   <div class="card">
 
 
-
-    <div class="list">
-      <label class="item item-input">
-        <input type="text" placeholder="First Name">
-      </label>
-      <label class="item item-input">
-        <input type="text" placeholder="Last Name">
-      </label>
-    </div>
-  </div>
-
-
-  <button class="button button-light center">
-    Sign in with email
-  </button>
-
-
-  <hr />
   <button class="button button-positive center">
     Sign in with Facebook
   </button>
+  </div>
 
 
 </div>
@@ -41,9 +46,12 @@
 
 
 <div class="box yellow">
-  <h2>Sign Up</h2>
+
 
   <div class="card">
+
+  <h4>Sign Up</h4>
+
     <div class="list">
       <label class="item item-input">
         <input type="text" placeholder="Email address">
@@ -56,23 +64,29 @@
       </label>
 
 
-    </div>
 
-
-
-  </div>
-
-<!--   <li class="item item-checkbox">
+  <li class="item item-checkbox">
      <label class="checkbox">
        <input type="checkbox">
      </label>
-     Flux Capacitor
-   </li> -->
+     I agree to the Terms and Conditions
+   </li>
+
+
+
+    </div>
+
 
 
    <button class="button button-light center">
     Register
   </button>
+
+
+  </div>
+
+
+
 
 
 
