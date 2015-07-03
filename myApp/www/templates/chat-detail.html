@@ -7,13 +7,41 @@
 <ion-view view-title="Receipt">
 <ion-content class="padding">
 <!-- <img ng-src="{{chat.face}}" style="width: 64px; height: 64px"> -->
-<h2>{{chat.name}}</h2>
-<p>{{chat.lastText}}</p>
-<p>{{chat.face}}</p>
 
-<button class="button button-light">
-  Resend
-</button>
+
+
+<div class="card">
+  <div class="item item-divider">
+      <small>ID:8673994996
+      <br />
+      Issue Date: July 03, 2015 18:17
+    </small>
+  </div>
+  <div class="item item-text-wrap">
+   <h1>{{chat.name}}</h1>
+    <p>QTY: 2</p>
+
+    <p>Amount: MYR499.00</p>
+    <p>GST: MYR29.94</p>
+    <p>Total Amount: MYR528.94</p>
+    <hr />
+
+    <small>Issued to: {{chat.lastText}}</small>
+
+
+  </div>
+  <div class="item item-divider">
+
+    <button class="button button-light">
+      Resend Invoice
+    </button>
+
+  </div>
+</div>
+
+
+
+
 
 
 </ion-content>
